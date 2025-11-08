@@ -21,6 +21,11 @@ pip install spacy==3.2.4 datasets==2.4.0 huggingface_hub==0.4.0 wandb pillow mid
 ## Datasets:
 https://drive.google.com/file/d/1lmMu8lPo7rsgCIO0yjceap8TUfM72aFK/view?usp=sharing
 
+Diffusion-LM-on-Symbolic-Music-Generation/
+├── datasets/
+│   └── midi/
+│       └── giant_midi_piano/  <-- 【データセット本体をここに配置】
+
 -----------------------------------------------------
 ## Train Diffusion-LM:
 
