@@ -33,7 +33,9 @@ https://drive.google.com/file/d/1lmMu8lPo7rsgCIO0yjceap8TUfM72aFK/view?usp=shari
 
 -------------------
 ## Decode Diffusion-LM:
-mkdir generation_outputs 
+mkdir generation_outputs  <-- wrong
+
+mkdir genout1
 
 ``python scripts/text_sample.py --model_path diffusion_models/diff_midi_pad_rand16_transformer_lr0.0001_0.0_2000_sqrt_Lsimple_h128_s2_d0.1_sd102_xstart_midi/model200000.pt --batch_size 32 --num_samples 32 --top_p 1.0 --out_dir genout1``
 
