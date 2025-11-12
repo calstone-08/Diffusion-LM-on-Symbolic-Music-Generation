@@ -12,8 +12,8 @@ from miditoolkit import MidiFile
 
 from improved_diffusion.script_util import add_dict_to_argparser, create_model_and_diffusion, \
     model_and_diffusion_defaults, args_to_dict
-from music_classifier.simplified_transformer_net import SimplifiedTransformerNetClassifierModel
-from music_classifier.transfomer_net import TransformerNetClassifierModel, TimedTransformerNetModelForPretrain
+from simplified_transformer_net import SimplifiedTransformerNetClassifierModel
+from transfomer_net import TransformerNetClassifierModel, TimedTransformerNetModelForPretrain
 from symbolic_music.advanced_padding import advanced_remi_bar_block
 from symbolic_music.utils import get_tokenizer
 from transformers import BertConfig, TrainingArguments, Trainer, IntervalStrategy, get_cosine_schedule_with_warmup, \
